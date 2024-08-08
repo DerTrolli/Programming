@@ -1,0 +1,30 @@
+html{
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+body{
+    margin: 25px;
+;
+}
+
+.lmg-header{
+    display: block;
+    margin: 25px auto;
+    border: 25px black;
+    max-width: 75%;
+    height: auto;
+
+}
+
+.linus-img{
+    border-radius: 150px;
+    margin: 25px;
+    max-width: 75%;
+    border: 10px solid black;
+}
+
+.merchandise img{
+    border-radius: 50px;
+    background-color: #ededed;
+    border: 5px solid #ef6825;
+}
