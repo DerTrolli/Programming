@@ -50,20 +50,45 @@ a:hover{
     border-radius: 150px;
     margin: 25px;
     max-width: 50%;
-    border: 10px solid rgb(105, 0, 204);
+    border: 10px solid #ef6825;
 }
 
 ol, ul{
     list-style-type: none;
 }
+
+.merchandise{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-bottom: 50px;
+}
+
+.merch-item{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
 .merchandise img{
     border-radius: 50px;
     background-color: #ededed;
     border: 5px solid #ef6825;
+    width: 200px;
 }
 
-footer{
+.merch-item img{
+    margin: 0px 50px;
+    margin-right: 0px;
+}
+
+.merch-item p{
+    margin: 0;
+}
+
+footer {
     text-align: center;
-    padding: 50px;
-    background-color: rgb(255, 0, 242);
+    padding: 40px 20px; 
+    padding-bottom: 60px;
+    background-color: rgb(102, 102, 102);
 }
