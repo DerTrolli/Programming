@@ -1,7 +1,106 @@
-.title-image{
-    width: 100%;
-    height: 800px;
-    overflow: hidden;
-    position: relative;
-    top: -300px;
+/*Font*/
+.orbitron{
+  font-family: "Orbitron", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+
+/* Body Setup*/
+body{
+    background-color: #202020;
+}
+
+
+/* Header Setup */
+.header {
+    font-family: "Orbitron";
+    text-decoration: none; /* Removes underline */
+    cursor: default;       /* Removes the pointer cursor */
+    background-image: radial-gradient(#648381 0%, #0b0033 50%, transparent 65%);
+    padding: 35px;
+    text-align: center;
+    font-size: 40px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.header h1{
+    color: #ffbf46;
+}
+
+.header:hover, .header:focus {
+    text-decoration: none; /* Keeps the underline removed */
+    cursor: default;       /* Keeps the cursor as default on hover */
+}
+
+.header a {
+    text-decoration: none;
+    color: inherit;
+    cursor: default;
+}
+
+.header a:hover, .header a:focus {
+    text-decoration: none;
+    color: inherit;
+    cursor: default;
+}
+
+
+/* Nav-Bar Setup*/
+nav{
+    text-align: center;
+    font-family: "Orbitron";
+}
+
+nav a{
+    color: #ffbf46;
+    text-decoration: none;
+    font-size: 25px;
+    max-width: 100%;
+}
+
+
+/* Text Setup */
+h1{
+    font-family: "Orbitron";
+    color: #ffbf46;
+}
+
+h2, h3, h4, h5, h6{
+    font-family: "Orbitron";
+    color: #5ea8fd;
+}
+p{
+    color: #ffff;
+    font-family: "Orbitron";
+}
+
+
+/* Flexbox Container Setup */
+.content{
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.article-title{
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.article-body{
+    display: flex;
+}
+
+.article-main{
+    flex: 3;
+    padding-right: 20px;
+}
+
+.sidebar{
+    flex: 1;
+    max-width: 300px;
+    padding-left: 20px;
 }
